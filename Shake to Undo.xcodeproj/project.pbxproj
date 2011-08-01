@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43302C9213E761950038C188 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43302C9113E761950038C188 /* Cocoa.framework */; };
+		43302C9C13E761950038C188 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 43302C9A13E761950038C188 /* InfoPlist.strings */; };
+		43302C9F13E761950038C188 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43302C9E13E761950038C188 /* main.m */; };
+		43302CA213E761950038C188 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 43302CA013E761950038C188 /* Credits.rtf */; };
+		43302CA513E761950038C188 /* SUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43302CA413E761950038C188 /* SUAppDelegate.m */; };
+		43302CB013E7645A0038C188 /* smslib.m in Sources */ = {isa = PBXBuildFile; fileRef = 43302CAF13E7645A0038C188 /* smslib.m */; };
+		43302CB213E76B590038C188 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43302CB113E76B590038C188 /* IOKit.framework */; };
+		43302CB413E76BFB0038C188 /* Menu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43302CB313E76BFB0038C188 /* Menu.xib */; };
+		43302CB813E7729C0038C188 /* SUOverlayWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 43302CB713E7729C0038C188 /* SUOverlayWindow.m */; };
+		43302CBB13E7735D0038C188 /* SUOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 43302CBA13E7735D0038C188 /* SUOverlayView.m */; };
+		43302CBD13E778970038C188 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43302CBC13E778970038C188 /* Quartz.framework */; };
+		43302CC013E77A350038C188 /* SUOverlayFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 43302CBF13E77A340038C188 /* SUOverlayFrame.m */; };
+		43302CC313E77E260038C188 /* SUOverlayButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 43302CC213E77E260038C188 /* SUOverlayButton.m */; };
+		43302CC513E78A070038C188 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 43302CC413E78A070038C188 /* Icon.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		43302C8D13E761950038C188 /* Shake to Undo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shake to Undo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43302C9113E761950038C188 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		43302C9413E761950038C188 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		43302C9513E761950038C188 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		43302C9613E761950038C188 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		43302C9913E761950038C188 /* Shake to Undo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Shake to Undo-Info.plist"; sourceTree = "<group>"; };
+		43302C9B13E761950038C188 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		43302C9D13E761950038C188 /* Shake to Undo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Shake to Undo-Prefix.pch"; sourceTree = "<group>"; };
+		43302C9E13E761950038C188 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		43302CA113E761950038C188 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		43302CA313E761950038C188 /* SUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SUAppDelegate.h; sourceTree = "<group>"; };
+		43302CA413E761950038C188 /* SUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SUAppDelegate.m; sourceTree = "<group>"; };
+		43302CAE13E7645A0038C188 /* smslib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = smslib.h; sourceTree = "<group>"; };
+		43302CAF13E7645A0038C188 /* smslib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = smslib.m; sourceTree = "<group>"; };
+		43302CB113E76B590038C188 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		43302CB313E76BFB0038C188 /* Menu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Menu.xib; sourceTree = "<group>"; };
+		43302CB613E7729C0038C188 /* SUOverlayWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUOverlayWindow.h; sourceTree = "<group>"; };
+		43302CB713E7729C0038C188 /* SUOverlayWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUOverlayWindow.m; sourceTree = "<group>"; };
+		43302CB913E7735D0038C188 /* SUOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUOverlayView.h; sourceTree = "<group>"; };
+		43302CBA13E7735D0038C188 /* SUOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUOverlayView.m; sourceTree = "<group>"; };
+		43302CBC13E778970038C188 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		43302CBE13E77A340038C188 /* SUOverlayFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUOverlayFrame.h; sourceTree = "<group>"; };
+		43302CBF13E77A340038C188 /* SUOverlayFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUOverlayFrame.m; sourceTree = "<group>"; };
+		43302CC113E77E260038C188 /* SUOverlayButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUOverlayButton.h; sourceTree = "<group>"; };
+		43302CC213E77E260038C188 /* SUOverlayButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUOverlayButton.m; sourceTree = "<group>"; };
+		43302CC413E78A070038C188 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43302C8A13E761950038C188 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43302CBD13E778970038C188 /* Quartz.framework in Frameworks */,
+				43302CB213E76B590038C188 /* IOKit.framework in Frameworks */,
+				43302C9213E761950038C188 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43302C8213E761950038C188 = {
+			isa = PBXGroup;
+			children = (
+				43302C9713E761950038C188 /* Shake to Undo */,
+				43302C9013E761950038C188 /* Frameworks */,
+				43302C8E13E761950038C188 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43302C8E13E761950038C188 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43302C8D13E761950038C188 /* Shake to Undo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43302C9013E761950038C188 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43302C9113E761950038C188 /* Cocoa.framework */,
+				43302CB113E76B590038C188 /* IOKit.framework */,
+				43302CBC13E778970038C188 /* Quartz.framework */,
+				43302C9313E761950038C188 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		43302C9313E761950038C188 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43302C9413E761950038C188 /* AppKit.framework */,
+				43302C9513E761950038C188 /* CoreData.framework */,
+				43302C9613E761950038C188 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		43302C9713E761950038C188 /* Shake to Undo */ = {
+			isa = PBXGroup;
+			children = (
+				43302CB513E7728B0038C188 /* Overlay */,
+				43302CA313E761950038C188 /* SUAppDelegate.h */,
+				43302CA413E761950038C188 /* SUAppDelegate.m */,
+				43302CAE13E7645A0038C188 /* smslib.h */,
+				43302CAF13E7645A0038C188 /* smslib.m */,
+				43302C9813E761950038C188 /* Supporting Files */,
+			);
+			path = "Shake to Undo";
+			sourceTree = "<group>";
+		};
+		43302C9813E761950038C188 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43302CC413E78A070038C188 /* Icon.icns */,
+				43302C9913E761950038C188 /* Shake to Undo-Info.plist */,
+				43302C9A13E761950038C188 /* InfoPlist.strings */,
+				43302C9D13E761950038C188 /* Shake to Undo-Prefix.pch */,
+				43302C9E13E761950038C188 /* main.m */,
+				43302CA013E761950038C188 /* Credits.rtf */,
+				43302CB313E76BFB0038C188 /* Menu.xib */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		43302CB513E7728B0038C188 /* Overlay */ = {
+			isa = PBXGroup;
+			children = (
+				43302CB613E7729C0038C188 /* SUOverlayWindow.h */,
+				43302CB713E7729C0038C188 /* SUOverlayWindow.m */,
+				43302CB913E7735D0038C188 /* SUOverlayView.h */,
+				43302CBA13E7735D0038C188 /* SUOverlayView.m */,
+				43302CBE13E77A340038C188 /* SUOverlayFrame.h */,
+				43302CBF13E77A340038C188 /* SUOverlayFrame.m */,
+				43302CC113E77E260038C188 /* SUOverlayButton.h */,
+				43302CC213E77E260038C188 /* SUOverlayButton.m */,
+			);
+			name = Overlay;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43302C8C13E761950038C188 /* Shake to Undo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43302CAB13E761950038C188 /* Build configuration list for PBXNativeTarget "Shake to Undo" */;
+			buildPhases = (
+				43302C8913E761950038C188 /* Sources */,
+				43302C8A13E761950038C188 /* Frameworks */,
+				43302C8B13E761950038C188 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Shake to Undo";
+			productName = "Shake to Undo";
+			productReference = 43302C8D13E761950038C188 /* Shake to Undo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43302C8413E761950038C188 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Nate Stedman";
+			};
+			buildConfigurationList = 43302C8713E761950038C188 /* Build configuration list for PBXProject "Shake to Undo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 43302C8213E761950038C188;
+			productRefGroup = 43302C8E13E761950038C188 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43302C8C13E761950038C188 /* Shake to Undo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43302C8B13E761950038C188 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43302C9C13E761950038C188 /* InfoPlist.strings in Resources */,
+				43302CA213E761950038C188 /* Credits.rtf in Resources */,
+				43302CB413E76BFB0038C188 /* Menu.xib in Resources */,
+				43302CC513E78A070038C188 /* Icon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43302C8913E761950038C188 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43302C9F13E761950038C188 /* main.m in Sources */,
+				43302CA513E761950038C188 /* SUAppDelegate.m in Sources */,
+				43302CB013E7645A0038C188 /* smslib.m in Sources */,
+				43302CB813E7729C0038C188 /* SUOverlayWindow.m in Sources */,
+				43302CBB13E7735D0038C188 /* SUOverlayView.m in Sources */,
+				43302CC013E77A350038C188 /* SUOverlayFrame.m in Sources */,
+				43302CC313E77E260038C188 /* SUOverlayButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		43302C9A13E761950038C188 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43302C9B13E761950038C188 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		43302CA013E761950038C188 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43302CA113E761950038C188 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43302CA913E761950038C188 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		43302CAA13E761950038C188 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		43302CAC13E761950038C188 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Shake to Undo/Shake to Undo-Prefix.pch";
+				INFOPLIST_FILE = "Shake to Undo/Shake to Undo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		43302CAD13E761950038C188 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Shake to Undo/Shake to Undo-Prefix.pch";
+				INFOPLIST_FILE = "Shake to Undo/Shake to Undo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43302C8713E761950038C188 /* Build configuration list for PBXProject "Shake to Undo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43302CA913E761950038C188 /* Debug */,
+				43302CAA13E761950038C188 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43302CAB13E761950038C188 /* Build configuration list for PBXNativeTarget "Shake to Undo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43302CAC13E761950038C188 /* Debug */,
+				43302CAD13E761950038C188 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43302C8413E761950038C188 /* Project object */;
+}

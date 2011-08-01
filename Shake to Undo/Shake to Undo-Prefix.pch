@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Shake to Undo' target in the 'Shake to Undo' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
